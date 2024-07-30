@@ -412,8 +412,6 @@ header.shadow {
   font-weight: 500;
 }
 .book-now {
-  display: flex;
-  justify-content: center;
   max-width: 150px;
   text-align: center;
   border: transparent;
