@@ -7,6 +7,7 @@
   --container-color: #fdf5f0;
   --bg-color: #fff;
   --text-alter-color: #27282b;
+  --text-green-color: #25D366;
   --poppins-font: "Poppins", sans-serif;
   --font-family-1: "Raleway", sans-serif;
   --font-family-2: "Roboto Slab", serif;
@@ -183,14 +184,15 @@ header.shadow {
   margin-top: 1.5rem;
 }
 .book-btn {
-  border: 1px solid var(--text-color);
+  border: transparent;
   color: var(--bg-color);
-  background: var(--text-color);
+  background: var(--text-green-color);
   border-radius: 0.2rem;
 }
 .book-btn:hover {
-  color: var(--text-color);
-  background: transparent;
+  color: var(--text-green-color);
+  background: var(--bg-color);
+  border: 1px solid var(--main-color);
 }
 .explore-btn {
   border: 1px solid var(--text-color);
@@ -410,17 +412,20 @@ header.shadow {
   font-weight: 500;
 }
 .book-now {
+  display: flex;
+  justify-content: center;
   max-width: 150px;
   text-align: center;
-  border: 1px solid var(--text-color);
-  color: var(--text-color);
+  border: transparent;
+  color: var(--bg-color);
+  background-color: var(--text-green-color);
   border-radius: 0.2rem;
   margin-top: 1.5rem;
 }
 .book-now:hover {
   border: 1px solid var(--main-color);
-  color: var(--bg-color);
-  background: #d1a670;
+  color: var(--text-green-color);
+  background-color: var(--bg-color);
 }
 .slider-btns {
   display: flex;
