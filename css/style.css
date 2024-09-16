@@ -665,7 +665,7 @@ header.shadow {
     right: 0;
     width: 300px;
     min-height: 100vh;
-    background: var(--main-color);
+    background: var(--bg-color);
     display: flex;
     flex-direction: column;
     align-items: center;
